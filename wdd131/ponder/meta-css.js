@@ -1,6 +1,5 @@
 const PI = 3.14;
 let radius = 3;
-// instead of using var use let
 
 let area = radius * radius * PI;
 
@@ -33,6 +32,9 @@ console.log(course); // works fine, course is global
 
 let selectElem = document.getElementById('webdevlist');
 selectElem.addEventListener('change', function(){
+    // document.querySelector('#html').style.color = 'black';
+    // document.querySelector('#css').style.color = 'black';
+    // document.querySelector('#js').style.color = 'black';
     let codeValue = selectElem.value;
     console.log(codeValue);
     document.getElementById(codeValue).style.color = 'red';
