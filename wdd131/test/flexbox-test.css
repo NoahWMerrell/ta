@@ -1,0 +1,33 @@
+.blue-box, .red-box, .green-box, .yellow-box {
+    height: 96px;
+    width: 96px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.red-box {
+    background-color: red;
+}
+
+.blue-box {
+    background-color: blue;
+}
+
+.green-box {
+    background-color: green;
+}
+
+.yellow-box {
+    background-color: orange;
+}
+
+#boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-content: space-between;
+    height: 400px;
+    width: 400px;
+    border: 5px dashed black;
+}
